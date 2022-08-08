@@ -28,6 +28,7 @@ A collection of my docker-compose files used to setup self-hosted services
 * [netdata](https://github.com/netdata/netdata)
 * [Nextcloud](https://github.com/nextcloud/docker) (WebApp + Database + Redis + Cron)
 * [Nginx Proxy Manager](https://github.com/jc21/nginx-proxy-manager) (WebApp + Database)
+* [ntfy](https://github.com/binwiederhier/ntfy/)
 * [Overseerr](https://github.com/sct/overseerr)
 * [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) (WebServer + Redis + Gotenberg + Tika)
 * [PhotoPrism](https://github.com/photoprism/photoprism) (Server + Database)
