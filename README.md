@@ -19,6 +19,7 @@ A collection of my docker-compose files used to setup self-hosted services
 * [Gotify](https://github.com/gotify)
 * [Grocy](https://github.com/linuxserver/docker-grocy)
 * [Guacamole](https://hub.docker.com/r/guacamole/guacamole)
+* [heimdall](https://github.com/linuxserver/docker-heimdall)
 * [Home Assistant](https://github.com/linuxserver/docker-homeassistant)
 * [Homer](https://github.com/bastienwirtz/homer)
 * [Joplin](https://github.com/flosoft/docker-joplin-server) (Server + Database)
