@@ -1,5 +1,5 @@
 # self-hosted_docker_setups
-A collection of my docker-compose files used to setup self-hosted services on Raspberry Pi 4
+A collection of my docker-compose files used to setup self-hosted services
 
 ---
 
@@ -55,7 +55,7 @@ Discover other awesome self-hosted services at - https://github.com/awesome-self
 
 ---
 ## Getting started
-Install ```docker``` and ```docker-compose``` on your RPi to start building containers
+Install ```docker``` and ```docker-compose``` to start building containers
 
 ### Update and Upgrade
 ``` bash
