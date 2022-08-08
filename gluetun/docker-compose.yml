@@ -1,0 +1,29 @@
+version: "3"
+services:
+  gluetun:
+    container_name: gluetun
+    image: qmcgaw/gluetun
+    cap_add:
+      - NET_ADMIN
+    environment:
+      - VPN_SERVICE_PROVIDER=vpn unlimited
+      - OPENVPN_USER=${VPN_USER}
+      - OPENVPN_PASSWORD=${VPN_PASS}
+      - SERVER_COUNTRIES=Netherlands,France,Germany
+      - SHADOWSOCKS=on
+      - SHADOWSOCKS_PASSWORD=${SHADOWSOCKS_PASSWORD}
+      - FIREWALL_OUTBOUND_SUBNETS=192.168.1.0/24
+      - TZ=Europe/Berlin
+      - HTTPPROXY=on
+      - HTTPPROXY_USER=${PROXY_USER}
+      - HTTPPROXY_PASSWORD=${PROXY_PASS}
+      - BLOCK_ADS=on
+      - BLOCK_SURVEILLANCE=on
+      - BLOCK_MALICIOUS=on
+    volumes:
+      - ./gluetun:/gluetun
+    ports:
+      - 127.0.0.1:8000:8000 # HTTP API localhost only
+      - 8888:8888/tcp # HTTP proxy
+      - 8388:8388/tcp # Shadowsocks
+      - 8388:8388/udp # Shadowsocks

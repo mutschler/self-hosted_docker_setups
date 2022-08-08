@@ -15,6 +15,7 @@ A collection of my docker-compose files used to setup self-hosted services on Ra
 * [Duplicati](https://github.com/linuxserver/docker-duplicati)
 * [Flood](https://github.com/jesec/flood)
 * [Gitea](https://github.com/go-gitea/gitea) (Server + Database)
+* [gluetun](https://github.com/qdm12/gluetun)
 * [Gotify](https://github.com/gotify)
 * [Grocy](https://github.com/linuxserver/docker-grocy)
 * [Guacamole](https://hub.docker.com/r/guacamole/guacamole)
@@ -72,7 +73,7 @@ sudo usermod -aG docker pi
 # Add permissions for the current user
 sudo usermod -aG docker ${USER}
 
-# Check 
+# Check
 groups ${USER}
 ```
 
