@@ -24,6 +24,7 @@ A collection of my docker-compose files used to setup self-hosted services on Ra
 * [Joplin](https://github.com/flosoft/docker-joplin-server) (Server + Database)
 * [Lidarr](https://github.com/linuxserver/docker-lidarr)
 * [Mealie](https://github.com/hay-kot/mealie)
+* [netdata](https://github.com/netdata/netdata)
 * [Nextcloud](https://github.com/nextcloud/docker) (WebApp + Database + Redis + Cron)
 * [Nginx Proxy Manager](https://github.com/jc21/nginx-proxy-manager) (WebApp + Database)
 * [Overseerr](https://github.com/sct/overseerr)
